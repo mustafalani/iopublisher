@@ -17,6 +17,16 @@ Install nginx
 		make -j 1
 		sudo make install
 
+		**You may receive "udo apt-get install libpcre3 libpcre3-dev"
+		
+		1: Install build essential sudo apt-get install build-essential
+
+		2: sudo apt-get install libpcre3 libpcre3-dev
+
+		3: sudo apt-get install zlib1g zlib1g-dev
+
+		4: sudo apt-get install -y libssl-dev
+
 Add nginx log directory
 		
 		sudo mkdir /var/log/nginx/

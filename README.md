@@ -1,6 +1,18 @@
 # iopublisher
 iohub Stream Publisher 
 
+Install dependencies
+
+1: Install build essential sudo apt-get install build-essential
+
+You may receive "udo apt-get install libpcre3 libpcre3-dev"
+
+2: sudo apt-get install libpcre3 libpcre3-dev
+
+3: sudo apt-get install zlib1g zlib1g-dev
+
+4: sudo apt-get install -y libssl-dev
+
 Download the latest nginx source
 
 		wget http://nginx.org/download/nginx-x.x.x.tar.gz
